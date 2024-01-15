@@ -1,18 +1,24 @@
+@font-face {
+    font-family: 'Montserrat - Regular';
+    src: url('../assets/fonts/static/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat - Light';
+    src: url('../assets/fonts/static/Montserrat-Light.ttf') format('truetype');
+}
+
 body {
     color: white;
     background-color: #1a0109;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .title {
+    font-family: 'Montserrat - Regular';
     color: white;
     margin: 32px;
 }
-.title {
-    color: white;
-    
-}
 .container1 {
+    font-family: 'Montserrat - Light';
     max-width: 100%;
     border-radius: 16px;
     background-color: #da6f935b;
@@ -31,6 +37,7 @@ body {
     order: -1;
 }
 .info-container {
+    font-family: 'Montserrat - Light';
     margin-top: 16px;
     max-width: 100%;
     border-radius: 16px;
