@@ -44,6 +44,9 @@ body {
 .card-text {
     margin: 16px;
 }
+a {
+    text-decoration: none;
+}
 .card:hover {
     transform: scale(1.050);
     transition: transform 0.3s ease;
