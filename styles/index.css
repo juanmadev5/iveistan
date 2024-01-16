@@ -106,9 +106,13 @@ a {
     color: white;
 }
 .devLink1 {
+    font-size: small;
+    font-family: 'Montserrat - Extralight';
     margin: 16px;
 }
 .devLink2 {
+    font-size: small;
+    font-family: 'Montserrat - Extralight';
     margin-left: 16px;
     padding-bottom: 18px;
 }
