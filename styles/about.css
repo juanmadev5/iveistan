@@ -22,7 +22,7 @@ body {
     font-family: 'Montserrat - Light';
     max-width: 100%;
     border-radius: 16px;
-    
+    background-color: #da6f935b;
     padding: 16px;
     display: flex;
     flex-direction: row;
