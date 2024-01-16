@@ -12,7 +12,6 @@ body {
     height: 100vh;
     transition: background-color 3.5s ease;
 }
-
 .top-bar {
     margin-top: 16px;
     margin-right: 16px;
@@ -96,4 +95,20 @@ a {
     .container {
         align-items: baseline;
     }
+}
+#dev {
+    text-decoration: none;
+    color: white;
+}
+#gitProyect {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.devLink1 {
+    margin: 16px;
+}
+.devLink2 {
+    margin-left: 16px;
+    padding-bottom: 18px;
 }
