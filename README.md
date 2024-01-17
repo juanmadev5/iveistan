@@ -2,7 +2,7 @@
 
 # IVE I Stan - Sumérgete en IVE!  
 
-Bienvenido/a a IVE I Stan, tu destino para explorar y conocer más sobre IVE. Esta página web ha sido creada con amor para nuevos DIVE, y espero que encuentres toda la información que estás buscando. De DIVE para DIVEs ❤️
+Bienvenido/a a IVE I Stan, tu destino para explorar y conocer más sobre IVE. Esta página web ha sido creada con amor para DIVE, y espero que encuentres toda la información que estás buscando. De DIVE para DIVEs ❤️
 
 ## Acceso al Sitio Web
 
