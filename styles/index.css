@@ -78,7 +78,6 @@ a {
     padding-bottom: 18px;
 }
 .links-container {
-    display: flex;
     justify-content: space-between;
     margin: 16px;
     align-items: center;
