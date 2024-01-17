@@ -9,7 +9,6 @@
 body {
     background-color: #E91E63;
     margin: 0;
-    height: 100vh;
     transition: background-color 3.5s ease;
 }
 .top-bar {
@@ -76,7 +75,13 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
+}
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -108,11 +113,8 @@ a {
 .devLink1 {
     font-size: small;
     font-family: 'Montserrat - Extralight';
-    margin: 16px;
 }
 .devLink2 {
     font-size: small;
     font-family: 'Montserrat - Extralight';
-    margin-left: 16px;
-    padding-bottom: 18px;
 }
