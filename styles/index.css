@@ -7,7 +7,6 @@
     src: url('../assets/fonts/static/Montserrat-ExtraLight.ttf') format('truetype');
 }
 body {
-    overflow: hidden;
     background: url("../assets/home_background.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
