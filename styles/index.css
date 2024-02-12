@@ -7,11 +7,19 @@
     src: url('../assets/fonts/static/Montserrat-ExtraLight.ttf') format('truetype');
 }
 body {
-    background-color: #E91E63;
+    overflow: hidden;
+    background: url("../assets/home_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin: 0;
-    transition: background-color 3.5s ease;
+}
+a {
+    text-decoration: none;
 }
 .top-bar {
+    max-width: 100%;
     margin-top: 16px;
     margin-right: 16px;
     padding: 8px;
@@ -28,7 +36,7 @@ body {
 .top-bar-title {
     font-family: 'Montserrat - Regular';
     color: white;
-    float: right;
+    float: left;
 }
 .top-bar-logo {
     width: 60px;
@@ -36,21 +44,21 @@ body {
     margin-right: 20px;
 }
 .card {
+    align-content: center;
+    padding: 5px;
     margin-top: 16px;
     margin-left: 16px;
-    color: white;
-    padding: 8px;
     background-color: rgba(53, 39, 46, 0.418);
     width: fit-content;
     height: auto;
     border-radius: 14px;
 }
+.card-l {
+    color: white;
+}
 .card-text {
     font-family: 'Montserrat - Extralight';
     margin: 16px;
-}
-a {
-    text-decoration: none;
 }
 .card:hover {
     transform: scale(1.050);
@@ -60,62 +68,29 @@ a {
     transform: scale(1);
     transition: transform 0.3s ease;
 }
-.group-image {
-    max-width: 100%;
-    height: auto;
-    width: 70%;
-    display: block;
-    float: right;
-    border-radius: 16px;
-    margin: 16px;
-}
-.container {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 18px;
-}
-.links-container {
-    justify-content: space-between;
-    margin: 16px;
-    align-items: center;
+.card_container {
+    width: fit-content;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
+    body {
+        max-width: max-content;
+    }
     .top-bar {
-        margin-top: 32px;
-    }
-    .container {
-        flex-direction: column;
-    }
-    .subcontainer2 {
-        order: -1;
-    }
-    .group-image {
+        max-width: 100%;
         width: 100%;
-        margin: 0px;
+        height: 100%;
+        margin-top: 0px;
+        background-color: #000000a6;
+        border-end-end-radius: 14px;
     }
-    .container {
-        align-items: baseline;
+    .top-bar-c1 {
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
-}
-#dev {
-    text-decoration: none;
-    color: white;
-}
-#gitProyect {
-    width: 100%;
-    text-decoration: none;
-    color: white;
-}
-.devLink1 {
-    font-size: small;
-    font-family: 'Montserrat - Extralight';
-}
-.devLink2 {
-    font-size: small;
-    font-family: 'Montserrat - Extralight';
 }

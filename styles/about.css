@@ -9,7 +9,7 @@
 
 body {
     color: white;
-    background-color: #1a0109;
+    background-color: #E91E63;
     margin: 0;
 }
 .title {
@@ -22,7 +22,7 @@ body {
     font-family: 'Montserrat - Light';
     max-width: 100%;
     border-radius: 16px;
-    background-color: #da6f935b;
+    background-color: #00000063;
     padding: 16px;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@ body {
     margin-top: 16px;
     max-width: 100%;
     border-radius: 16px;
-    background-color: #da6f935b;
+    background-color: #00000063;
     padding: 16px;
 }
 @media (max-width: 768px) {
@@ -58,7 +58,6 @@ body {
             max-width: 100%;
         }
     }
-
     .container1 {
         display: block;
         flex-direction: column;
