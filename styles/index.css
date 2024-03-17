@@ -100,9 +100,3 @@ a {
     flex-direction: column;
   }
 }
-@media (min-width: 720px) {
-  .card_container {
-    margin-top: 6px;
-    flex-direction: row;
-  }
-}
