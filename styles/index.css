@@ -75,19 +75,28 @@ a {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  margin-top: 64px;
   margin-bottom: var(--default-margin);
 }
 
-@media (orientation: landscape) {
-    .card_container {
-        margin-top: 6px;
-        flex-direction: column;
-      }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  @media (orientation: landscape) {
     .card_container {
       margin-top: 6px;
       flex-direction: row;
     }
+  }
+
+  @media (orientation: portrait) {
+    .card_container {
+      margin-top: 6px;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .card_container {
+    margin-top: 6px;
+    flex-direction: column;
   }
 }
