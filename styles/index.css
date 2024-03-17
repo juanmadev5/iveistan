@@ -6,6 +6,11 @@
     font-family: 'Montserrat - Extralight';
     src: url('../assets/fonts/static/Montserrat-ExtraLight.ttf') format('truetype');
 }
+:root{
+    --component-background-color: #000000a4;
+    --default-margin: 16px;
+    --default-border-radius: 14px;
+}
 body {
     background: url("../assets/home_background.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -18,46 +23,41 @@ a {
     text-decoration: none;
 }
 .top-bar {
-    max-width: 100%;
-    margin-top: 16px;
-    margin-right: 16px;
+    background-color: var(--component-background-color);
+    border-bottom-right-radius: var(--default-border-radius);
+    border-bottom-left-radius: var(--default-border-radius);
+    min-width: fit-content;
     padding: 8px;
-    height: 60px;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;   
-}
-.top-bar-c1 {
     display: flex;
     align-items: center;
 }
 .top-bar-title {
     font-family: 'Montserrat - Regular';
     color: white;
-    float: left;
+    margin-right: var(--default-margin);
 }
 .top-bar-logo {
     width: 60px;
     height: 60px;
-    margin-right: 20px;
+    margin-left: var(--default-margin);
+    margin-right: var(--default-margin);
 }
 .card {
     align-content: center;
-    padding: 5px;
-    margin-top: 16px;
-    margin-left: 16px;
-    background-color: rgba(53, 39, 46, 0.418);
+    padding: 4px;
+    margin-top: var(--default-margin);
+    margin-left: var(--default-margin);
+    background-color: var(--component-background-color);
     width: fit-content;
     height: auto;
-    border-radius: 14px;
+    border-radius: var(--default-border-radius);
 }
 .card-l {
     color: white;
 }
 .card-text {
     font-family: 'Montserrat - Extralight';
-    margin: 16px;
+    margin: var(--default-margin);
 }
 .card:hover {
     transform: scale(1.050);
@@ -70,26 +70,6 @@ a {
 .card_container {
     width: fit-content;
     margin-top: 64px;
-    margin-bottom: 16px;
+    margin-bottom: var(--default-margin);
 }
 
-@media (max-width: 768px) {
-    body {
-        max-width: max-content;
-    }
-    .top-bar {
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-        margin-top: 0px;
-        background-color: #000000a6;
-        border-end-end-radius: 14px;
-    }
-    .top-bar-c1 {
-        max-width: 100%;
-        width: 100%;
-        align-items: center;
-        margin-top: 24px;
-        margin-bottom: 24px;
-    }
-}

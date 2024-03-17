@@ -6,10 +6,15 @@
     font-family: 'Montserrat - Light';
     src: url('../assets/fonts/static/Montserrat-Light.ttf') format('truetype');
 }
-
+:root{
+    --default-background-color: #167ab4;
+    --component-background-color: #000000a4;
+    --default-margin: 16px;
+    --default-border-radius: 14px;
+}
 body {
     color: white;
-    background-color: #E91E63;
+    background-color: var(--default-background-color);
     margin: 0;
 }
 .title {
@@ -22,16 +27,17 @@ body {
     line-height: 32px;
     font-family: 'Montserrat - Light';
     max-width: 100%;
-    border-radius: 16px;
-    background-color: #00000063;
-    padding: 16px;
+    min-width: fit-content;
+    border-radius: var(--default-border-radius);
+    background-color: var(--component-background-color);
+    padding: var(--default-border-radius);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .image {
     height: 600px;
-    border-radius: 16px;
+    border-radius: var(--default-border-radius);
 }
 .info-subcontainer {
     max-width: 40%;
